@@ -72,7 +72,7 @@ namespace Plugin
                 {
                     target = players[0];
                     armors = target.TPlayer.armor;
-                    str = $"{target.Name}" + " : ";
+                    str = $"{target.Name}" + " : " + "拿着 " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}";
                 }
             }
             for (int i = 0; i < MAX_SLOTS_NUMBER; i++)
@@ -103,25 +103,25 @@ namespace Plugin
             {
                 if (nothingEpuipped)
                 {
-                    
-                    TShock.Utils.Broadcast($"{target.Name}这家伙啥都没装备。", Microsoft.Xna.Framework.Color.Green);
+
+                    TShock.Utils.Broadcast($"{target.Name}这家伙啥都没装备。" + "只拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}", Microsoft.Xna.Framework.Color.Green);
                 }
                 else
                 {
                     
-                    TShock.Utils.Broadcast(str, Microsoft.Xna.Framework.Color.Green);
+                    TShock.Utils.Broadcast(str += " 拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}", Microsoft.Xna.Framework.Color.Green);
                 }
             }
             if (argsCount == 1)
             {
                 if (nothingEpuipped)
                 {
-                    args.Player.SendSuccessMessage($"{target.Name}这家伙啥都没装备。");
+                    args.Player.SendSuccessMessage($"{target.Name}这家伙啥都没装备，只拿着 " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}");
                     
                 }
                 else
                 {
-                    args.Player.SendSuccessMessage(str);
+                    args.Player.SendSuccessMessage(str += " 拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}");
                 }
             } 
         }
