@@ -30,7 +30,7 @@ namespace Plugin
         {
 
             Commands.ChatCommands.Add(new Command(
-                //permissions: new List<string> { },
+                permissions: "ShowArmors",
                 cmd: ShowMySlots,
                 "装备", "show", "zb")
             {
@@ -59,7 +59,7 @@ namespace Plugin
             string str = "";
             const int MAX_SLOTS_NUMBER = 10;
             int argsCount = args.Parameters.Count;
-            bool nothingEpuipped = false;
+            bool nothingEquipped = false;
 
             if (argsCount != 0 && argsCount != 1)
             {
@@ -112,10 +112,10 @@ namespace Plugin
                 }
             }
 
-            nothingEpuipped = str == ($"{target.Name}" + " : ");
+            nothingEquipped = str == ($"{target.Name}" + " : ");
             if (argsCount == 0)
             {
-                if (nothingEpuipped)
+                if (nothingEquipped)
                 {
                     TShock.Utils.Broadcast($"{target.Name}这家伙啥都没装备。" + "只拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}", Microsoft.Xna.Framework.Color.Green);
                 }
@@ -126,7 +126,7 @@ namespace Plugin
             }
             else if (argsCount == 1)
             {
-                if (nothingEpuipped)
+                if (nothingEquipped)
                 {
                     args.Player.SendSuccessMessage($"{target.Name}这家伙啥都没装备，只拿着 " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}");
                 }
