@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYQxuCVPV7885oBMTM3wTXtQYOvQs4rY0VrW3Mdb99qm6Yl/z/q7Yd1E+lI3/ndQ+UsMNec2rN9N6z/tQt+Nmg==",
+  "dgSpecHash": "olZKjAsVrensm7WcAI3UYog9Q0NKlGyI63Twe1JAbM7YsIp8bADX+KPM2g7MUc1MWBH84/gqjZWPyvuYWMLWPQ==",
   "success": true,
-  "projectFilePath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\ShowMySolts.csproj",
+  "projectFilePath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\ShowMySolts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xien\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\xien\\.nuget\\packages\\gettext.net\\1.7.14\\gettext.net.1.7.14.nupkg.sha512",

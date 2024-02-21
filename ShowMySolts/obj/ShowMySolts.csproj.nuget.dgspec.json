@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\ShowMySolts.csproj": {}
+    "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\ShowMySolts.csproj": {}
   },
   "projects": {
-    "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\ShowMySolts.csproj": {
+    "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\ShowMySolts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\ShowMySolts.csproj",
+        "projectUniqueName": "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\ShowMySolts.csproj",
         "projectName": "ShowMySolts",
-        "projectPath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\ShowMySolts.csproj",
+        "projectPath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\ShowMySolts.csproj",
         "packagesPath": "C:\\Users\\xien\\.nuget\\packages\\",
-        "outputPath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\ShowArmors\\2\\ShowMySolts\\obj\\",
+        "outputPath": "E:\\泰拉\\编写插件专用\\编写插件专用2\\自己改改写写的\\完善\\源码\\ShowArmors\\ShowMySolts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\share\\NuGetPackages"
