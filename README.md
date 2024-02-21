@@ -21,6 +21,9 @@ Show Armors 插件允许玩家查看自己或其他玩家的装备栏情况，�
 
 
 
+
+
+
 # Show Armors Plugin
 
 ## Introduction
