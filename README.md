@@ -1,20 +1,20 @@
-# ShowArmors
-A TShock Plugin showing player's Armors and Accessories in the chat box
-# Permissions
-None
-# Usage
-<code>
-  .show <player>
-</code>
-<br>
-<code>
-  .装备 <player>
-</code>
-<br>
-<code>
-  .zb <player>
-</code>
-<br>
-<code>
-  player
-</code>is an optional parameter
+# Show Armors 插件
+
+## 简介
+
+Show Armors 插件允许玩家查看自己或其他玩家的装备栏情况，并在聊天框中显示相应信息。通过该插件，玩家可以快速了解装备情况，方便进行装备管理和交流。
+
+## 命令
+
+- `/装备` 或 `/show` 或 `/zb`：显示自己的装备情况。
+- `/装备 <玩家>`：显示指定玩家的装备情况。
+
+## 使用示例
+
+- 输入 `/装备` 或 `/show` 或 `/zb` 可以查看自己的装备情况。
+- 输入 `/装备 玩家名字` 可以查看指定玩家的装备情况。
+
+## 注意事项
+
+- 玩家名字区分大小写。
+- 插件仅显示装备栏的物品信息，不包括其他栏位的物品信息。
