@@ -14,7 +14,7 @@ namespace Plugin
     [ApiVersion(2, 1)]
     public class ShowArmors : TerrariaPlugin
     {
-        public override string Author => "Ak";
+        public override string Author => "Ak，肝帝熙恩更新";
 
         public override string Description => "展示装备栏";
 

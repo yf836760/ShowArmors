@@ -1,0 +1,13 @@
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\bin\Debug\net6.0\HttpServer.dll
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\bin\Debug\net6.0\ShowMySolts.deps.json
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\bin\Debug\net6.0\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\bin\Debug\net6.0\ShowMySolts.pdb
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.csproj.AssemblyReference.cache
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.GeneratedMSBuildEditorConfig.editorconfig
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.AssemblyInfoInputs.cache
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.AssemblyInfo.cs
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.csproj.CoreCompileInputs.cache
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\refint\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ShowMySolts.pdb
+E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Debug\net6.0\ref\ShowMySolts.dll
