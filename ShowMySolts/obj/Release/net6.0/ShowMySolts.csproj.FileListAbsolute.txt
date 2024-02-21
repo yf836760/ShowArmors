@@ -11,3 +11,16 @@ E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Re
 E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Release\net6.0\refint\ShowMySolts.dll
 E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Release\net6.0\ShowMySolts.pdb
 E:\泰拉\编写插件专用\编写插件专用2\ShowArmors\2\ShowMySolts\obj\Release\net6.0\ref\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\bin\Release\net6.0\HttpServer.dll
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\bin\Release\net6.0\ShowMySolts.deps.json
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\bin\Release\net6.0\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\bin\Release\net6.0\ShowMySolts.pdb
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.csproj.AssemblyReference.cache
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.GeneratedMSBuildEditorConfig.editorconfig
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.AssemblyInfoInputs.cache
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.AssemblyInfo.cs
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.csproj.CoreCompileInputs.cache
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\refint\ShowMySolts.dll
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ShowMySolts.pdb
+E:\泰拉\编写插件专用\编写插件专用2\自己改改写写的\完善\源码\ShowArmors\ShowMySolts\obj\Release\net6.0\ref\ShowMySolts.dll

@@ -31,11 +31,25 @@ namespace Plugin
 
             Commands.ChatCommands.Add(new Command(
                 //permissions: new List<string> { },
-                cmd: this.ShowMySlots,
+                cmd: ShowMySlots,
                 "装备", "show", "zb")
             {
                 HelpText = "发送自己的装备配置到聊天框。别名：show 和 zb "
             });
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                // 清理托管资源
+                Commands.ChatCommands.RemoveAll(cmd => cmd.Names.Contains("装备") || cmd.Names.Contains("show") || cmd.Names.Contains("zb"));
+                // 还可以添加其他托管资源的清理操作
+            }
+
+            // 清理非托管资源
+
+            base.Dispose(disposing);
         }
 
         private void ShowMySlots(CommandArgs args)
@@ -103,29 +117,26 @@ namespace Plugin
             {
                 if (nothingEpuipped)
                 {
-
                     TShock.Utils.Broadcast($"{target.Name}这家伙啥都没装备。" + "只拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}", Microsoft.Xna.Framework.Color.Green);
                 }
                 else
                 {
-                    
                     TShock.Utils.Broadcast(str += " 拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}", Microsoft.Xna.Framework.Color.Green);
                 }
             }
-            if (argsCount == 1)
+            else if (argsCount == 1)
             {
                 if (nothingEpuipped)
                 {
                     args.Player.SendSuccessMessage($"{target.Name}这家伙啥都没装备，只拿着 " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}");
-                    
                 }
                 else
                 {
                     args.Player.SendSuccessMessage(str += " 拿着: " + $"[i/p{target.SelectedItem.prefix}:{target.SelectedItem.netID}]" + $"{(ItemPrefix)target.SelectedItem.prefix}");
                 }
-            } 
+            }
+
         }
-        
 
         public enum ItemPrefix
         {
