@@ -9,6 +9,10 @@ Show Armors 插件允许玩家查看自己或其他玩家的装备栏情况，�
 - `/装备` 或 `/show` 或 `/zb`：显示自己的装备情况。
 - `/装备 <玩家>`：显示指定玩家的装备情况。
 
+## 权限
+
+- 有`ShowArmors`权限的玩家才可以使用该命令
+
 ## 使用示例
 
 - 输入 `/装备` 或 `/show` 或 `/zb` 可以查看自己的装备情况。
@@ -37,6 +41,10 @@ The Show Armors plugin allows players to view their own or other players' armor 
 
 - `/装备` or `/show` or `/zb`: Displays your own armor and accessory information.
 - `/装备 <player>`: Displays the armor and accessory information of the specified player.
+
+## Permissions
+
+- Only players with the `ShowArmors` permission can use this command.
 
 ## How to Use
 
