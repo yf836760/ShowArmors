@@ -19,7 +19,10 @@ Show Armors 插件允许玩家查看自己或其他玩家的装备栏情况，�
 - 玩家名字区分大小写。
 - 插件仅显示装备栏的物品信息，不包括其他栏位的物品信息。
 
+## 支持与反馈
 
+- 如果您在使用过程中遇到问题或有任何建议，欢迎在官方论坛或社区中提出issues。
+- github仓库：https://github.com/yf836760/ShowArmors
 
 #English
 
@@ -44,3 +47,8 @@ The Show Armors plugin allows players to view their own or other players' armor 
 
 - Player names are case-sensitive.
 - This plugin only displays information about items in the armor and accessory slots, excluding other inventory items.
+
+## Support and Feedback
+
+- If you encounter any issues or have suggestions while using the plugin, feel free to raise issues on the official forum or community.
+- GitHub Repository: https://github.com/yf836760/ShowArmors
